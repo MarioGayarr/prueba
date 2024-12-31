@@ -1,0 +1,57 @@
+body {
+    background: url('Imagenes/fondo-beige.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+  }
+  header img {
+    height: 50px;
+    width: auto;
+  }
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+  }
+  .hero .text {
+    max-width: 50%;
+  }
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  footer a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
